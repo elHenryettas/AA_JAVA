@@ -2,10 +2,7 @@ package uno.tiposyvariables;
 
 public class Operadores {
     public static void main(String[] args) {
-
-
         //Operadores
-
         //Arismeticos
         // +, -, *, /, %
         int number1 = 7;
@@ -22,6 +19,10 @@ public class Operadores {
         //Asignacion
         // =, +=, -=, *=, /=, %=
 
+        //Incremento y Decremento
+        //  ++             --
 
+        //Concatenacion
+        //    +
     }
 }

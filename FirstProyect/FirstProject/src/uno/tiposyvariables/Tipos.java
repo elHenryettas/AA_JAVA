@@ -33,5 +33,7 @@ public class Tipos {
         //tipos envoltorios
         Integer numero = null;
         Long numero2 = 2L;
+
+
     }
 }
