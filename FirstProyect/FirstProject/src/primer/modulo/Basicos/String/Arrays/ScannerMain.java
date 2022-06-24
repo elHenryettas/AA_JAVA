@@ -7,7 +7,6 @@ public class ScannerMain {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce un nombre");
         String nombre = scanner.nextLine();
-
         System.out.println("El nombre introducido es: " + nombre);
     }
 }

@@ -12,7 +12,7 @@ public class CarMain {
 
 
         ElectricCar carElectricObj = new ElectricCar("Verde", "Suzuki", "Nazda", 1000, 4.8, "JDK");
-
+        ElectricCar auto  = new ElectricCar();
 
         System.out.println(carElectricObj.toString());
 
