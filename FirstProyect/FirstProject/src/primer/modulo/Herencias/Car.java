@@ -1,6 +1,6 @@
 package primer.modulo.Herencias;
 // las clases abstractas fuerzan a crear instancias a partir solamente de sus clases hijas
-public abstract class  Car {
+public abstract class Car {
 
     //atributos
     String color;

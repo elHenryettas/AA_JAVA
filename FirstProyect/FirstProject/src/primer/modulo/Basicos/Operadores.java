@@ -1,7 +1,9 @@
 package primer.modulo.Basicos;
 
+import primer.modulo.Basicos.String.StringsMain;
+
 public class Operadores {
-    public static void main(String[] args) {
+    public static void main(StringsMain[] args) {
         //Operadores
         //Arismeticos
         // +, -, *, /, %

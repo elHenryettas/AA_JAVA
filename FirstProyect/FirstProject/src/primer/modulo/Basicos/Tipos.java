@@ -1,9 +1,11 @@
 package primer.modulo.Basicos;
 
+import primer.modulo.Basicos.String.StringsMain;
+
 public class Tipos {
 
 
-    public static void main(String[] args) {
+    public static void main(StringsMain[] args) {
 
         //<tipo> <identificador> = <valor>
         //<tipo> <identificador>
