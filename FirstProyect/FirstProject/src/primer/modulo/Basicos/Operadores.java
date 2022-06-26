@@ -7,6 +7,7 @@ public class Operadores {
         //Operadores
         //Arismeticos
         // +, -, *, /, %
+      /*  
         int number1 = 7;
         int number2 = 4;
         int resultado = number1 + number2;
@@ -14,7 +15,7 @@ public class Operadores {
         int resultado2 = number1 * number2;
         int resultado3 = number1 / number2;
         int resultado4 = number1 % number2;
-
+         */
         //Logicos
         // >, <, <=, >=, ==, !=, &&, ||, !,
 

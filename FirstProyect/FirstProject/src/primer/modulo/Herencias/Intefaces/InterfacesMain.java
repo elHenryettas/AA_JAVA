@@ -10,5 +10,7 @@ public class InterfacesMain {
         Car car1 =  service1.crearCocheDemo();
         Car car2 =  service1.crearCocheDemo();
         System.out.println(car1);
+        System.out.println(service2);
+        System.out.println(car2);
     }
 }

@@ -15,6 +15,7 @@ public class CarMain {
         ElectricCar auto  = new ElectricCar();
 
         System.out.println(carElectricObj.toString());
+        System.out.println(auto);
 
         carElectricObj.acelerar(30);
         carElectricObj.acelerar(30);

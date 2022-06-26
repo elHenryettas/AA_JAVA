@@ -2,7 +2,6 @@ package primer.modulo.Herencias.Intefaces;
 
 import primer.modulo.Herencias.Car;
 import primer.modulo.Herencias.ElectricCar;
-import primer.modulo.Herencias.Intefaces.CarService;
 
 public class CarServiceSportImpl implements CarService {
 
