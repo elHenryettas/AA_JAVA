@@ -29,7 +29,7 @@ public class VectoresMain {
         victorDos.add(2);
         victorDos.add(4);
         victorDos.add(-5);
-
+        
         boolean isEquals = victor.equals(victorDos);
         // System.out.println(isEquals); true
         
