@@ -29,9 +29,9 @@ public class Coche {
     }
 
     // getter y setter
-
+    
     public Long getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(Long id) {
@@ -39,7 +39,7 @@ public class Coche {
     }
 
     public String getManufacturer() {
-        return manufacturer;
+        return this.manufacturer;
     }
 
     public void setManufacturer(String manufacturer) {
@@ -47,7 +47,7 @@ public class Coche {
     }
 
     public String getModel() {
-        return model;
+        return this.model;
     }
 
     public void setModel(String model) {
@@ -55,7 +55,7 @@ public class Coche {
     }
 
     public Integer getYear() {
-        return year;
+        return this.year;
     }
 
     public void setYear(Integer year) {
@@ -63,13 +63,18 @@ public class Coche {
     }
 
     // tostring
+
+
     @Override
     public String toString() {
-        return "Coche{" +
-                "id=" + id +
-                ", manufacturer='" + manufacturer + '\'' +
-                ", model='" + model + '\'' +
-                ", year=" + year +
-                '}';
+        return "{" +
+            " id='" + getId() + "'" +
+            ", manufacturer='" + getManufacturer() + "'" +
+            ", model='" + getModel() + "'" +
+            ", year='" + getYear() + "'" +
+            "}";
     }
+    
+    
+    
 }
