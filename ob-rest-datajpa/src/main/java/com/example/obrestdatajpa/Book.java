@@ -1,4 +1,5 @@
 package com.example.obrestdatajpa;
+/*
 
 import java.time.LocalDate;
 import javax.persistence.Entity;
@@ -7,7 +8,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Entity /* De esta manera definimos lo siguiente como tabla de la BD */
+@Entity */
+/* De esta manera definimos lo siguiente como tabla de la BD *//*
+
 @Table(name = "books")
 public class Book {
 
@@ -101,17 +104,5 @@ public class Book {
     // toString
 
 
-    @Override
-    public String toString() {
-        return "{" +
-            " id='" + getId() + "'" +
-            ", title='" + getTitle() + "'" +
-            ", author='" + getAuthor() + "'" +
-            ", pages='" + getPages() + "'" +
-            ", price='" + getPrice() + "'" +
-            ", releaseDate='" + getReleaseDate() + "'" +
-            ", online='" + isOnline() + "'" +
-            "}";
-    }
-
 }
+*/
