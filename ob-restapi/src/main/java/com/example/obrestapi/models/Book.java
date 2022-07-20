@@ -1,4 +1,4 @@
-package com.example.obrestapi;
+package com.example.obrestapi.models;
 
 
 import java.time.LocalDate;

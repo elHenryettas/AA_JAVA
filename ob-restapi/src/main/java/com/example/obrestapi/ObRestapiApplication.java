@@ -5,9 +5,11 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 
+import com.example.obrestapi.models.Book;
+import com.example.obrestapi.repository.BookRepository;
+
 @SpringBootApplication
 public class ObRestapiApplication {
-
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(ObRestapiApplication.class, args);
 		BookRepository repository = context.getBean(BookRepository.class);
@@ -24,7 +26,7 @@ public class ObRestapiApplication {
 		
 
 		// Eliminar un libro
-		repository.deleteById(1L);
+		// repository.deleteById(1L);
 		System.out.println("Numero de libros en base de datos: " +repository.findAll().size());
 	}
 
