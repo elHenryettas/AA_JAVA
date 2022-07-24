@@ -18,8 +18,6 @@ public class Coche {
 
     // constructores
 
-    public Coche() {
-    }
 
     public Coche(Long id, String manufacturer, String model, Integer year) {
         this.id = id;
